@@ -2,6 +2,7 @@ const app = require('@app');
 const config = require('@config');
 
 module.exports = (err) => {
+  console.clear();
   if (err) {
     return console.log(err);
   }
